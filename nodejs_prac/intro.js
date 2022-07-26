@@ -16,3 +16,4 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(port, portname);
+console.log("The server has started...");
